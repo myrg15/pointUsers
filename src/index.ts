@@ -1,6 +1,6 @@
 import express,{Request,Response} from "express";//cargamos e inicializamos el objeto express
 import { router as routerUsers } from "./routes/usersRoutes";
-import { AppDataSource } from "./routes/db";
+import { AppDataSource } from "./routes/db"; //me da error haciendo mencion a esta dirección 
 
 const app = express()//ejecuta la funcion y guardala en una constante
 
